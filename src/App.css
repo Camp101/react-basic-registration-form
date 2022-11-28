@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(211, 244, 235);
+}
+
+.container {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(243, 232, 239);
+    border-style: hidden;
+}
+
+button {
+    height: 40px;
+    background-color: rgb(247, 161, 237);
+    border-radius: 5px;
+    border-style: hidden;
+
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+span {
+    color: red;
+}
+
+.success-text {
+    color: blue;
+}
